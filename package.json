@@ -1,0 +1,42 @@
+{
+  "name": "veriflanbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.16",
+    "mongoose-sequence": "^5.2.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.8",
+    "qrcode": "^1.4.4",
+    "stripe": "^8.56.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/veriflan/veriflanbackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/veriflan/veriflanbackend/issues"
+  },
+  "homepage": "https://gitlab.com/veriflan/veriflanbackend#readme",
+  "engines": {
+    "node": "10.0.0",
+    "npm": "6.4.1"
+  }
+}
