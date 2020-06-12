@@ -1,4 +1,4 @@
-const stripeToken = require('stripe')(process.env.PUBLIC_KEY);
+const stripeToken = require('stripe')(process.env.PUBLISHABLE_KEY);
 const stripe = require('stripe')(process.env.SECRET_KEY);
 
 const response = require('../services/response')
